@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+% https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Pronnoy Dutta} \\ \vspace{1pt}
+    \small +91 7042768041 $|$ \href{mailto:pronnoy1998@gmail.com}{{pronnoy1998@gmail.com}}    \\ 
+    \small  
+    \href{https://www.linkedin.com/in/pronnoy-dutta/}{\bf LinkedIn} $|$
+    \href{https://github.com/pronns}{\bf GitHub} $|$
+    \href{https://medium.com/@pronnoy1998}{\bf Medium}
+    
+\end{center}
+
+%-----------PROJECTS-----------
+\section{Profile}
+\begin{itemize}[leftmargin=0.05in, label={}]
+\item 
+Data Engineer with 4+ years of experience in building large-scale data pipelines, ETL processes, and data warehouse solutions. Utilized technologies like \textbf{Python, SQL, Spark, AWS, ETL Pipelines,  Hadoop and Kubernetes} to develop multi-terabyte scalable big data solutions for Fortune 100 Pharmaceutical companies.
+\end{itemize}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{:\hspace{0.06cm}  Python, SQL, C\#, Java} \\
+     \textbf{Big Data Technologies}{:\hspace{0.49cm}     Spark, PySpark, Spark SQL, YARN, Kubernetes, Hadoop, Hive } \\
+     \textbf{Cloud Computing}{: \hspace{1.10cm} AWS S3, AWS Glue, AWS EMR, AWS RDS, AWS Redshift } \\
+     \textbf{Data Engineering Tools}{:\hspace{0.28cm} Data Warehousing, Data Modelling, ETL/ELT data Pipeline}\\
+     \textbf{Orchestration}{:\hspace{2.02cm} Airflow, Kubernetes, Control-M} \\
+     \textbf{Other Technologies}{:\hspace{1.02cm} Tableau, Git, Linux, Microsoft Excel, Postman, MySQL, PostgresSQL, Docker} \\
+     \textbf{Certifications}{:\hspace{2.04cm} AWS Certified Security Specialty, AWS Certified Solution Architect Associate, CCNA} \\
+     
+     
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+   
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+% -------------------------------------------
+
+    \resumeSubheading
+      {Axtria}{May 2024 - Present}
+      {Senior Data Engineer}{Gurgaon, India}
+      \resumeItemListStart
+      \resumeItem{Led a team of Data Engineers in designing, developing and optimizing data pipelines and ETL processes. }
+      \resumeItem{Developed and optimized multiple complex SQL queries and ETL pipelines written in old technologies like Hive and SQL to more optimized big data technologies like \textbf{PySpark, improving data processing efficiency by 30\%.} }
+        % \item Developed an automated invoicing system, enabling dynamic pricing adjustments on cloud service provider invoices.
+        \resumeItem {Carried out multiple change requests and SOW's in multiple projects at the same time using big data technologies like \textbf{Airflow, Pyspark, AWS, Hadoop} etc., handling various file formats like \textbf{JSON, CSV and Parquet.}}
+        \resumeItem {Implemented Spark optimization techniques such as \textbf{caching, multithreading, and broadcast} joins, resulting in a 30\% decrease in processing time for handling a daily load of around \textbf{5 Million records}.}
+    \resumeItemListEnd
+
+     \resumeSubheading
+      {Axtria}{Mar 2022 - April 2024}
+      {Associate Data Engineer/Analyst Data Engineer}{Gurgaon, India}
+      \resumeItemListStart
+        \resumeItem {Delivered multiple \textbf{development and scripting tasks} with zero defects, with proper DQ checks and email notifications wherever required, maintaining high-quality standards and client satisfaction.}
+        \resumeItem{Independently developed and refined Tableau dashboards for cross-functional teams with real-time insights, facilitating data-driven decision-making. Automated the complete flow of refreshing around \textbf{30+ dashboards} using a python script (tableau-api-lib package) and including the job resulting in \textbf{7 hours workforce decrease.}}
+         \resumeItem {Developed a microservice deployed on Kubernetes, integrating FastAPI to push messages into a \textbf{Kafka} broker for real-time tracking of processing status (success or failure).}
+        \resumeItem {Developed multiple pipelines to ingest Business rules from backend using S3, developed \textbf{dimension and fact data models and incorporated SCD-2 logic.}}
+        \resumeItem {Conducted in-depth data analysis using \textbf{Hive, Impala, and Spark SQL}, providing SIT/UAT fixes and ensuring smooth operations in the production environment.}
+        
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Infosys}{November 2020 - March 2022}
+      {Systems Engineer}{Remote}
+      \resumeItemListStart
+        \resumeItem {Designed and implemented a Web API project using C\# onion architecture, improving system performance by 15\% and ensuring robust API functionality making use of tools like Swagger and Postman.}
+\resumeItem {Automated task scheduling and database operations using Python and SQL, reducing \textbf{manual intervention by 50\% and increasing operational efficiency.}}
+\resumeItem {Created comprehensive CRUD APIs and unit tests, achieving a 95\% code coverage and ensuring high-quality software delivery.}
+        
+      \resumeItemListEnd
+
+      
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education / Others}
+  \resumeItemListStart
+  \resumeItem
+      {Bharati Vidyapeeth College of Engineering Pune}\hspace{2cm}
+      {B.Tech Computer Science } {July 2016 - June 2020}
+      \resumeItem
+      {Delhi Public School, Gurgaon}\hspace{4.95cm}
+      {Senior Secondary School} \hspace{3cm}{2016}
+      \resumeItem
+      {Official Member of AWS Community Builders – Member of Security Team}
+          \resumeItemListEnd
+
+%-------------------------------
+
+%
+
+\end{document}
